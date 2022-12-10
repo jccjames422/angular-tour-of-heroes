@@ -3,17 +3,27 @@ ul {
   margin: 0;
 }
 
-li  {
+li {
   list-style-type: none;
-  padding: 6px 0 6px 0;
-  margin: .25em 0;
-  background-color: #efefef;
-  border-radius: 4px;
-  max-width: 10em;
+}
+
+.delete {
+  margin-left: 1em;
+  padding: .25em;
+  color: red;
+  font-weight:bolder;
 }
 
 li a {
+  background-color: #efefef;
+  padding: .5em 1em .5em 0;
+  border-radius: 4px;
   text-decoration: none;
+}
+
+li a:hover {
+  background-color: #333333;
+  color:white;
 }
 
 .badge {
